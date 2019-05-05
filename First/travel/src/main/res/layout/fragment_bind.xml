@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <TextView
+        android:layout_width="201dp"
+        android:layout_height="22dp"
+        android:text="为了您的账号安全"
+        android:textColor="#FFFA6A13"
+        android:textSize="16sp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="73dp"
+
+        />
+
+    <TextView
+        android:layout_width="198dp"
+        android:layout_height="38dp"
+        android:text="请绑定手机号"
+        android:textColor="#FF373737"
+        android:textSize="27sp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="@dimen/dp_104"
+
+        />
+
+
+    <ImageView
+        android:layout_width="@dimen/dp_14"
+        android:layout_height="@dimen/dp_21"
+        android:src="@mipmap/phone"
+        android:layout_marginTop="@dimen/dp_248"
+        android:layout_marginLeft="@dimen/dp_31"
+        />
+
+    <TextView
+        android:layout_width="@dimen/dp_28"
+        android:layout_height="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_53"
+        android:layout_marginTop="@dimen/dp_249"
+        android:text="+86"
+        android:textColor="#636363"
+        android:textSize="14sp"
+        android:id="@+id/tv_bind"
+        />
+
+    <View
+        android:layout_width="@dimen/dp_7"
+        android:layout_height="@dimen/dp_5"
+        android:layout_marginLeft="@dimen/dp_83"
+        android:layout_marginTop="@dimen/dp_257"
+        android:background="@mipmap/select"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="请输入手机号"
+        android:id="@+id/te_phone_bind"
+        android:textSize="16sp"
+        android:layout_alignBottom="@id/tv_bind"
+        android:layout_marginLeft="@dimen/dp_106"
+        android:background="@drawable/side"
+        />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:text="发送验证码"
+        android:textColor="#FFFEFEFE"
+        android:textSize="14sp"
+        android:layout_marginLeft="@dimen/dp_273"
+        android:layout_marginTop="@dimen/dp_249"
+        android:background="@mipmap/button_unavailable"
+        android:id="@+id/tv_code_bind"
+        />
+
+    <View
+        android:layout_width="329dp"
+        android:layout_height="1dp"
+        android:background="#FFFA6A13"
+        android:layout_marginLeft="@dimen/dp_23"
+        android:layout_marginTop="@dimen/dp_279"
+
+        />
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.CodeFragment">
+
+   <ImageView
+       android:layout_width="@dimen/dp_25"
+       android:layout_height="@dimen/dp_25"
+       android:layout_marginTop="@dimen/dp_35"
+       android:layout_marginLeft="@dimen/dp_20"
+       android:src="@mipmap/back_white"
+       />
+    <TextView
+        android:layout_width="@dimen/dp_108"
+        android:layout_height="@dimen/dp_20"
+        android:text="重新发送（56s）"
+        android:textColor="#FF999999"
+        android:textSize="14sp"
+        android:layout_marginLeft="252dp"
+        android:layout_marginTop="@dimen/dp_37"
+        />
+
+    <TextView
+        android:layout_width="@dimen/dp_170"
+        android:layout_height="@dimen/dp_38"
+        android:text="请输入验证码"
+        android:textColor="#FF373737"
+        android:textSize="27sp"
+        android:layout_marginTop="@dimen/dp_104"
+        android:layout_marginLeft="@dimen/dp_23"
+        />
+
+    <EditText
+        android:layout_width="@dimen/dp_44"
+        android:layout_height="@dimen/dp_56"
+        android:background="@drawable/code"
+        android:layout_marginLeft="@dimen/dp_55"
+        android:layout_marginTop="@dimen/dp_225"
+        />
+
+    <EditText
+        android:layout_width="@dimen/dp_44"
+        android:layout_height="@dimen/dp_56"
+        android:background="@drawable/code"
+        android:layout_marginLeft="@dimen/dp_129"
+        android:layout_marginTop="@dimen/dp_225"
+        />
+    <EditText
+        android:layout_width="@dimen/dp_44"
+        android:layout_height="@dimen/dp_56"
+        android:background="@drawable/code"
+        android:layout_marginLeft="@dimen/dp_203"
+        android:layout_marginTop="@dimen/dp_225"
+        />
+    <EditText
+        android:layout_width="@dimen/dp_44"
+        android:layout_height="@dimen/dp_56"
+        android:background="@drawable/code"
+        android:layout_marginLeft="@dimen/dp_277"
+        android:layout_marginTop="@dimen/dp_225"
+        />
+</RelativeLayout>

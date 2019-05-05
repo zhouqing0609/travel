@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.fragment.FirstFragment"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:id="@+id/first_item"
+        android:layout_marginTop="@dimen/dp_38"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_38">
+        <com.scwang.smartrefresh.header.material.CircleImageView
+            android:layout_marginLeft="@dimen/dp_20"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="@dimen/dp_36"
+            android:layout_height="@dimen/dp_36" />
+
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_width="@dimen/dp_20"
+            android:layout_height="@dimen/dp_16"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dp_22"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="@dimen/dp_18"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_135">
+        <com.youth.banner.Banner
+            android:background="@mipmap/ic_launcher"
+            android:id="@+id/bann"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_135">
+
+        </com.youth.banner.Banner>
+        <TextView
+            android:id="@+id/photo"
+            android:textColor="@color/orgin"
+            android:textSize="@dimen/sp_18"
+            android:text="摄影天堂"
+            android:layout_marginTop="@dimen/dp_31"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_width="@dimen/dp_76"
+            android:layout_height="@dimen/dp_25" />
+        <TextView
+            android:id="@+id/wold"
+            android:textColor="@color/white"
+            android:text="世外桃源"
+            android:textSize="@dimen/sp_18"
+            android:layout_below="@id/photo"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_width="@dimen/dp_76"
+            android:layout_height="@dimen/dp_25" />
+        <TextView
+            android:layout_marginLeft="@dimen/dp_21"
+            android:layout_below="@id/wold"
+            android:textSize="@dimen/sp_14"
+            android:textColor="@color/white"
+            android:text="PHOTOGRAPHYHEAVEN"
+            android:layout_width="@dimen/dp_104"
+            android:layout_height="@dimen/dp_28" />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>
